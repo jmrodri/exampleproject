@@ -1,7 +1,7 @@
 %{!?python_sitelib: %define python_sitelib %(%{__python} -c "from distutils.sysconfig import get_python_lib; print get_python_lib()")}
 
 Name: exampleproject
-Version: 1.0.0
+Version: 1.0.1
 Release: 1%{?dist}
 Summary: Example hello world project
 
@@ -36,4 +36,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/hello.py*
 
 %changelog
+* Sat Jan 14 2012 jesus m. rodriguez <jmrodri@gmail.com> 1.0.1-1
+- new package built with tito
+
 
