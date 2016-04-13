@@ -16,6 +16,7 @@ BuildArch: noarch
 %description
 Example hello world project
 Use merge
+use squash
 
 %prep
 %setup -q -n %{name}-%{version}
