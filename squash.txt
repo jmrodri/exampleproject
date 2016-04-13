@@ -1,2 +1,11 @@
 use squash in pr
 updated
+#!/usr/bin/python
+
+# some comment
+if __name__ == "__main__":
+    print "Hello FUDCon"
+    print "use_merge"
+    print "use squash"
+This is some random text for use merge branch
+updated by squash
